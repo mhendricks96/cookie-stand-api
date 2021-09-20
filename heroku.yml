@@ -7,4 +7,3 @@ release:
     - python manage.py collectstatic --noinput
 run:
   web: gunicorn project.wsgi
-
